@@ -1,0 +1,132 @@
+:root{
+    --white: #ffffff;
+    --cream: #f2EAE2;
+    --aurometalSaurus: #6C7289; 
+    --deepAquamarine: #3D8168;
+    --deepAquaHover: #1A4032;
+    --gunmetal: #1C232B;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: var(--cream);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card{
+    display: flex;
+    width: 600px;
+    height: 450px;
+}
+
+img{
+    display: block;
+    border-radius: 0.625rem 0 0 0.625rem;
+}
+
+.product-info{
+    background-color: var(--white);
+    border-radius: 0 0.625rem 0.625rem 0;  
+    padding: 2rem; 
+}
+
+.product-tag, .product-name, .product-description, .product-price, .btn-cart{
+    margin-top: 1.5rem;
+}
+
+
+.product-tag, .product-description, .product-old-price, .btn-cart{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: var(--aurometalSaurus)
+}
+
+.product-tag{
+    margin-top: 0;
+    font-size: 0.75rem;
+    letter-spacing: 0.313rem;
+}
+
+.product-name, .product-new-price{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.product-name{
+    line-height: 1;
+    color:var(--gunmetal);
+}
+
+.product-description{
+    font-size: .875rem;
+    line-height: 1.8;
+}
+
+.product-price{
+    display: flex;
+}
+
+.product-new-price{
+    color: var(--deepAquamarine);
+}
+
+.product-old-price{
+    font-size: .813rem;
+    align-self: center;
+    margin-left: 1rem;
+    text-decoration: line-through;
+}
+
+.btn-cart{
+    background-color: var(--deepAquamarine);
+    border: none;
+    border-radius: .5rem;
+    color: var(--white);
+    font-size: .875rem;
+    font-weight: 700;
+    width: 100%;
+    padding: 0.938rem 0;
+}
+
+.icon-cart{
+    margin-right: .75rem;
+}
+
+
+.attribution{
+    position: absolute;
+    bottom: 20px
+}
+
+@media (max-width: 44em) {
+
+    body{
+        background-color: var(--cream);
+        align-items: start;
+        margin-top: 1.75rem;
+    }
+
+    .product-card{
+        flex-direction: column;
+        width: 343px;
+    }
+
+    img{
+        border-radius: 0.625rem 0.625rem 0 0;
+    }
+    
+    .product-info{
+        background-color: var(--white);
+        border-radius: 0 0 0.625rem 0.625rem;
+    } 
+}
