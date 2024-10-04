@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/ldonnianni/product-preview-card-component-main](https://your-solution-url.com)
+- Live Site URL: [https://ldonnianni.github.io/product-preview-card-component-main/](https://your-live-site-url.com)
 
 ## My process
 
@@ -41,9 +41,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbo
-
-
+- Flexbox
 
 
 ### Continued development

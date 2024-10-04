@@ -104,7 +104,7 @@ img{
 
 
 .attribution{
-    position: absolute;
+    position: fixed;
     bottom: 20px
 }
 
