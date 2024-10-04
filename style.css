@@ -98,6 +98,10 @@ img{
     padding: 0.938rem 0;
 }
 
+.btn-cart:hover{
+    background-color: var(--deepAquaHover);
+}
+
 .icon-cart{
     margin-right: .75rem;
 }
